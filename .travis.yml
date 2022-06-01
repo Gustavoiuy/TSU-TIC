@@ -1,11 +1,7 @@
-language: javascript
+language: js
 javascript:
 -1.0
 
-before-script:
-
-composer install --no-interaction
-
-script:
-
-- vendor /bin/javascriptunit
+"scripts": {
+  "test": "vows --spec"
+},
