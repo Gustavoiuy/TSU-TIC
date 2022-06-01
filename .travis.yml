@@ -1,7 +1,0 @@
-language: js
-javascript:
--1.0
-
-"scripts": {
-  "test": "vows --spec"
-},
